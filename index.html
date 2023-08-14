@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music - Player</title>
+  <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+  <div class="player-container">
+    <!-- Song -->
+    <div class="img-container">
+      <img src="flower.jpg" alt="song-cover-image">
+    </div>
+    <h2 id="title">Flowers</h2>
+    <h3 id="artist">Miley Cyrus</h3>
+    <audio src="flower.mp3"></audio>
+
+    <!-- Progress Bar -->
+    <div class="progress-container" id="progress-container">
+      <div class="progress" id="progress"></div>
+      <div class="duration-wrapper">
+        <span id="current-time">0:00</span>
+        <span id="duration">3:21</span>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <div class="player-control">
+      <i class="fa-solid fa-backward" id="previous" title="Previous"></i>
+      <i class="fa-solid fa-play main-button" id="play" title="Play"></i>
+      <i class="fa-solid fa-forward" id="next" title="Next"></i>
+    </div>
+  </div>
+  <!-- Linking JS file -->
+  <script src="script.js"></script>
+</body>
+
+</html>
