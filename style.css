@@ -36,7 +36,6 @@ body {
 .img-container img {
   height: 100%;
   width: 100%;
-  /* object-fit: cover; */
   border-radius: 20px;
   box-shadow: 0 5px 30px 5px #00000080;
 }
@@ -71,10 +70,9 @@ h3 {
 }
 
 .duration-wrapper {
-  /* font-family: "Ubuntu", sans-serif; */
   font-size: 16px;
   position: relative;
-  top: -30px;
+  top: -25px;
   display: flex;
   justify-content: space-between;
 }
@@ -83,8 +81,8 @@ h3 {
 
 .player-control {
   position: relative;
-  top: -20px;
-  left: 118px;
+  top: -15px;
+  left: 120px;
   width: 200px;
 }
 
@@ -107,30 +105,12 @@ h3 {
 }
 
 /* Media Query */
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 376px) {
   .player-container {
     width: 95vw;
   }
   .img-container {
-    left: 30px;
-  }
-  h2 {
-    font-size: 30px;
-  }
-  h3 {
-    font-size: 20px;
-  }
-  .player-control {
-    top: -1px;
-    left: 92px;
-  }
-}
-@media screen and (max-width: 413px) {
-  .player-container {
-    width: 95vw;
-  }
-  .img-container {
-    left: 45px;
+    left: 29px;
   }
   h2 {
     font-size: 30px;
@@ -140,6 +120,6 @@ h3 {
   }
   .player-control {
     top: -10px;
-    left: 119px;
+    left: 100px;
   }
 }
