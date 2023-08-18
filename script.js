@@ -13,6 +13,11 @@ const durationElement = document.getElementById("duration");
 // Music
 const song = [
   {
+    name: "tere-bin",
+    displayName: "Tere Bin",
+    artist: "Rabbi Shergill",
+  },
+  {
     name: "until",
     displayName: "Until I Found You",
     artist: "Stephen Sanchez",
